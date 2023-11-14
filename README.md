@@ -6,6 +6,6 @@
 cd
 git clone https://github.com/palmerusaf/distro-setup
 cd distro-setup
-./main.sh
+sudo ./main.sh
 cd
 ```
