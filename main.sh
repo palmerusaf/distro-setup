@@ -5,3 +5,5 @@
 ./install-nvim.sh
 ./setup-astronvim.sh
 ./install-nvim-term.sh
+./fix-res.sh
+echo "restart computer for res change"
