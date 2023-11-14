@@ -6,4 +6,5 @@
 ./setup-astronvim.sh
 ./install-nvim-term.sh
 ./fix-res.sh
+./install-superpro.sh
 echo "restart computer for res change"
