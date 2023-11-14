@@ -6,5 +6,4 @@ cd ~/.local/share/fonts && curl -fLO https://github.com/ryanoasis/nerd-fonts/raw
 cd ~/distro-setup
 sudo apt install kitty
 sudo update-alternatives --config x-terminal-emulator
-echo "hide_window_decorations yes">>~/.config/kitty/kitty.conf
-echo "background_opacity 0">>~/.config/kitty/kitty.conf
+cat kitty-conf>~/.config/kitty/kitty.conf
