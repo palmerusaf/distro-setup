@@ -6,3 +6,4 @@ chmod u+x nvim.appimage
 sudo mv squashfs-root /
 sudo ln -s /squashfs-root/AppRun /usr/bin/nvim
 rm nvim.appimage
+sudo apt-get install -y xclip
