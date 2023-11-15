@@ -6,4 +6,4 @@ cd ~/.local/share/fonts && curl -fLO https://github.com/ryanoasis/nerd-fonts/raw
 cd ~/distro-setup
 sudo apt install kitty
 sudo update-alternatives --config x-terminal-emulator
-cat kitty-conf>~/.config/kitty/kitty.conf
+cat ./kitty-conf>~/.config/kitty/kitty.conf
