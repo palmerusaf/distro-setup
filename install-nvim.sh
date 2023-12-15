@@ -6,4 +6,5 @@ chmod u+x nvim.appimage
 sudo mv squashfs-root /
 sudo ln -s /squashfs-root/AppRun /usr/bin/nvim
 rm nvim.appimage
-sudo apt-get install -y xclip
+echo "Installing clipboard support and latex dep..."
+sudo apt-get install -y xclip latexmk
