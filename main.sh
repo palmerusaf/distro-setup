@@ -7,4 +7,5 @@
 ./install-nvim-term.sh
 ./fix-res.sh
 ./install-superpro.sh
+cp ./.bashrc ~
 echo "restart computer for res change"
