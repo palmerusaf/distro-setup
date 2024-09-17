@@ -26,7 +26,6 @@ sudo dpkg -i bottom_0.9.6_amd64.deb
 
 echo "install python3"
 sudo apt install python3.10-venv
-git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
-git clone git@github.com:palmerusaf/astronvim-config ~/.config/nvim/lua/user
+git clone git@github.com:palmerusaf/nvim-config ~/.config/nvim
 nvim --headless +q
 echo "astronvim setup complete"
