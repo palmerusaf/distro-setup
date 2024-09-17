@@ -8,4 +8,5 @@
 ./fix-res.sh
 ./install-superpro.sh
 cp ./.bashrc ~
+./fzf.sh
 echo "restart computer for res change"
