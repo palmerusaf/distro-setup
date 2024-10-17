@@ -15,3 +15,12 @@ Section "Screen"
     EndSubSection
 EndSection
 
+Section "Module"
+    Load "dri3"
+EndSection
+
+Section "Device"
+    Identifier  "Intel Graphics"
+    Driver      "intel"
+    Option      "DRI"   "3"
+EndSection
