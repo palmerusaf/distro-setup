@@ -9,4 +9,5 @@
 ./install-superpro.sh
 cp ./.bashrc ~
 ./fzf.sh
+./install-vimium-desktop.sh
 echo "restart computer for res change"
