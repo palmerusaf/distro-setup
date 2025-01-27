@@ -138,6 +138,4 @@ case ":$PATH:" in
 esac
 # pnpm end
 
-
-# Load Angular CLI autocompletion.
-source <(ng completion script)
+alias vi=nvim
